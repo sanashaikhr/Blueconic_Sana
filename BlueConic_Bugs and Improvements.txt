@@ -1,0 +1,22 @@
+BlueConic Bugs/Improvements:
+
+ 1 Missing Input Fields When Submitting a New Session:
+     The submission process for a new session lacks input fields for capturing the Room Number and Start Time.
+	 
+ 2 Displaying "Null" on UI for Room Number and Start Time:
+     Due to the absence of input fields mentioned above, the UI displays "Null" for Room Number and Start Time.
+	 
+ 3 Default Display of Wednesday Sessions on Conference Page:
+     Upon landing on the Conference Page, Wednesday sessions are displayed by default instead of showing the complete list of all sessions.
+	 
+ 4  Highlighting Selected Day When Filtering Sessions:
+     When filtering sessions by day, the selected day should be visually highlighted to provide clear feedback to the user about their selection.
+
+ 5  Inconsistent Behavior in Displaying New Sessions:
+     After submitting a new session, it appears at the end of the list under "All sessions." However, this behavior is not consistent when filtering sessions by day.
+	 
+Improvements to Consider:
+
+ 1 Introduce input fields for Room Number and Start Time during session submission to ensure complete and accurate data entry.
+ 2 Ensure that the UI dynamically updates to display the selected day's sessions when filtering by day.
+ 3 Implement consistent behavior for displaying newly submitted sessions, regardless of the filtering criteria applied.
